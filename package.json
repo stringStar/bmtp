@@ -1,0 +1,35 @@
+{
+  "name": "simple-templ",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node  ./bin/www.mjs  --harmony_destructuring"
+  },
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "~1.4.3",
+    "crawler": "^1.1.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jsdom": "^11.7.0",
+    "mongoose": "^5.0.11",
+    "morgan": "~1.9.0",
+    "request": "^2.85.0",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "chalk": "^2.3.2",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.1.0",
+    "power-assert": "^1.5.0"
+  }
+}
